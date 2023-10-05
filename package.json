@@ -147,6 +147,7 @@
   },
   "dependencies": {
     "api": "6.1.1",
-    "commander": "11.0.0"
+    "commander": "11.0.0",
+    "openapi-types": "7"
   }
 }
