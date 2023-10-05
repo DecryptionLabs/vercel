@@ -1,0 +1,83 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": true
+    },
+    "vercel-build": {
+      "name": "vercel-build",
+      "command": "pnpm vercel-build",
+      "runAtStart": false
+    },
+    "pre-commit": {
+      "name": "pre-commit",
+      "command": "pnpm pre-commit",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "pnpm test",
+      "runAtStart": false
+    },
+    "test-unit": {
+      "name": "test-unit",
+      "command": "pnpm test-unit",
+      "runAtStart": false
+    },
+    "test-cli": {
+      "name": "test-cli",
+      "command": "pnpm test-cli",
+      "runAtStart": false
+    },
+    "test-e2e": {
+      "name": "test-e2e",
+      "command": "pnpm test-e2e",
+      "runAtStart": false
+    },
+    "test-dev": {
+      "name": "test-dev",
+      "command": "pnpm test-dev",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    "prettier-check": {
+      "name": "prettier-check",
+      "command": "pnpm prettier-check",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "pnpm prepare",
+      "runAtStart": false
+    },
+    "pack": {
+      "name": "pack",
+      "command": "pnpm pack",
+      "runAtStart": false
+    },
+    "ci:version": {
+      "name": "ci:version",
+      "command": "pnpm ci:version",
+      "runAtStart": false
+    },
+    "ci:publish": {
+      "name": "ci:publish",
+      "command": "pnpm ci:publish",
+      "runAtStart": false
+    }
+  }
+}
