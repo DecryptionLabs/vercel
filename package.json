@@ -144,5 +144,9 @@
         }
       }
     ]
+  },
+  "dependencies": {
+    "api": "6.1.1",
+    "commander": "11.0.0"
   }
 }
